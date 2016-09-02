@@ -34,11 +34,11 @@ Swift が登場するまでは Objective-C, C, C++ などでアプリケーシ�
 今後はこの Swift を使ってiOSアプリケーションを開発するのが主流となるはずです。
 
 - The Swift Programming Language - https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/
-- iOS/SwiftDocumentation
+- [ざっくり Swift 入門](./swift.md)
 
 # この講義で作成するアプリ
 
-iOS/MarketApp
+[MarketApp](./market_app.md)
 
 # 講義の進め方
 
@@ -50,4 +50,21 @@ iOS/MarketApp
 
 # さあはじめよう
 
-iOS/Lesson
+## 講義
+
+- [講義1 プロジェクトの作成](./lesson01.md)
+- [講義2 クラスと Storyboard を関連付ける](./lesson02.md)
+- [講義3 画面要素の配置](./lesson03.md)
+- [講義4 TableView によるリストの表示](./lesson04.md)
+- [講義5 ライブラリの導入](./lesson05.md)
+- [講義6 サーバから情報を取得して画面に反映する](./lesson06.md)
+- [講義7 Storyboard を用いた画面遷移の実装](./lesson07.md)
+
+## 課題
+
+- [課題1 商品詳細画面の実装](./exercise01.md)
+- [課題2 カテゴリ一覧画面とカテゴリ別商品一覧画面の実装](./exercise02.md)
+- [課題3 カートの実装](./exercise03.md)
+- [課題4 注文処理の実装](./exercise04.md)
+- [発展課題1 カート内商品の編集機能の実装](./exercise05.md)
+- [発展課題2 カート内商品の永続化](./exercise06.md)
