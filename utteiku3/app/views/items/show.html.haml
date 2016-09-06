@@ -1,0 +1,17 @@
+%p#notice= notice
+
+.item
+  %h2= @item.name
+  = image_tag @item.image_url, size: '400x300', alt: "#{@item.name}のイラストです"
+  %p.description= @item.description
+  %p.price #{@item.price}円
+
+.line_item
+  = form_for LineItem.new(item: @item) do |f|
+    = f.hidden_field :item_id
+
+    = f.label :quantity, '数量'
+    = f.number_field :quantity, size: 5, required: true
+
+    = submit_tag 'カートに追加'
+= link_to 'Back', items_path
